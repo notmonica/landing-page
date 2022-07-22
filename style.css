@@ -33,27 +33,62 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(231, 111, 81);
+    transition-duration: 0.3s;
+}
+
 .banner {
     display: flex;
-    height: 20vh;
+    height: 25vh;
     width: auto;
+    padding: 16px;
     background-color: rgb(38, 70, 83);
     color: rgb(233, 196, 106);
+    justify-content: space-around;
 }
 
 .bigtext{
     padding: 16px;
     color: rgb(233, 196, 106);
     justify-content: center;
-
+    text-align: center;
 }
 
 .subtext {
     padding: 16px;
     color: rgb(233, 196, 106);
+    text-align: center;
 }
 
 img {
     height: 18vh;
     width: auto;
+    box-shadow: 0 0 4px 4px rgb(233, 196, 106);
+    border-radius: 4px;
+}
+
+.centered-button {
+    text-align: center;
+    border: 0;
+}
+
+button {
+    background-color: rgb(233, 196, 106);
+    color: rgb(38, 70, 83);
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: 5px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(231, 111, 81);
+    box-shadow: 0 0 4px 4px rgb(233, 196, 106);
+    color: rgb(233, 196, 106);
 }
