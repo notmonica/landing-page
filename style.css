@@ -36,3 +36,28 @@ a {
     color: rgb(233, 196, 106);
     text-decoration: none;
 }
+
+.banner {
+    display: flex;
+    height: 20vh;
+    width: auto;
+    background-color: rgb(38, 70, 83);
+    color: rgb(233, 196, 106);
+}
+
+.bigtext{
+    padding: 16px;
+    color: rgb(233, 196, 106);
+    justify-content: center;
+
+}
+
+.subtext {
+    padding: 16px;
+    color: rgb(233, 196, 106);
+}
+
+img {
+    height: 18vh;
+    width: auto;
+}
