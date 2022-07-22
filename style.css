@@ -40,12 +40,16 @@ a:hover {
 
 .banner {
     display: flex;
-    height: 25vh;
+    height: 30vh;
     width: auto;
     padding: 16px;
     background-color: rgb(38, 70, 83);
     color: rgb(233, 196, 106);
     justify-content: space-around;
+}
+
+.container {
+    width: 375px;
 }
 
 .bigtext{
@@ -56,16 +60,16 @@ a:hover {
 }
 
 .subtext {
-    padding: 16px;
+    padding: 24px;
     color: rgb(233, 196, 106);
     text-align: center;
 }
 
 img {
-    height: 18vh;
-    width: auto;
+    height: 25vh;
     box-shadow: 0 0 4px 4px rgb(233, 196, 106);
     border-radius: 4px;
+
 }
 
 .centered-button {
