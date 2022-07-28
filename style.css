@@ -206,11 +206,16 @@ button:hover {
     background-color: rgb(42, 157, 143);
     color: rgb(233, 196, 106);
     padding: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 .bottom-text-container {
     background-color: rgb(38, 70, 83);
-    padding: 64px;
+    padding-top: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-bottom: 64px;
     text-align: center;
     border-radius: 8px;
 }
