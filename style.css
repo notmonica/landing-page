@@ -145,3 +145,91 @@ button:hover {
     font-weight: bold;
     margin-top: 0.25em;
 }
+
+.info-title {
+    background-color: rgb(42, 157, 143);
+    color: rgb(233, 196, 106);
+    font-family: "Bungee";
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.info-container {
+    background-color: rgb(42, 157, 143);
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 32px;
+}
+
+.info {
+    max-width: 125px;
+}
+
+.square-img {
+    height: 125px;
+    width: 125px;
+    box-shadow: 0 0 10px rgb(231, 111, 81);
+}
+
+.illustration-text {
+    color: rgb(233, 196, 106);
+    font-size: 0.75em;
+    border-radius: 4px;
+    margin-top: 16px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.quote {
+    background-color: rgb(233, 196, 106);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote-text {
+    color: rgb(231, 111, 81);
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+
+.author {
+    text-align: center;
+    color: rgb(231, 111, 81);
+}
+
+.bottom-container {
+    background-color: rgb(42, 157, 143);
+    color: rgb(233, 196, 106);
+    padding: 64px;
+}
+
+.bottom-text-container {
+    background-color: rgb(38, 70, 83);
+    padding: 64px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.bottom-text-title {
+    font-family: "Bungee";
+    font-size: 24px;
+    padding: 16px;
+}
+
+.bottom-text {
+    padding-bottom: 16px;
+}
+
+.footer {
+    background-color: rgb(38, 70, 83);
+    color: rgb(233, 196, 106);
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
